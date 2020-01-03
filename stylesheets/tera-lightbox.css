@@ -1,0 +1,59 @@
+/*
+
+Tera Lightbox CSS
+Version 2.1
+Made by Themanoid
+
+*/
+#lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #31353a;
+  z-index: 9999;
+  display: none; }
+  #lightbox img, #lightbox iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+    display: none; }
+  #lightbox iframe {
+    width: 900px;
+    height: 510px;
+    max-width: 80%;
+    max-height: 90%; }
+  #lightbox .controls {
+    background: #222;
+    width: 40px;
+    height: 120px;
+    position: absolute;
+    z-index: 10000;
+    bottom: 5%;
+    left: 0; }
+    #lightbox .controls .galleryNext, #lightbox .controls .galleryClose, #lightbox .controls .galleryPrev {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #ccc;
+      -webkit-transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005);
+      -moz-transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005);
+      -o-transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005);
+      transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
+      #lightbox .controls .galleryNext:hover, #lightbox .controls .galleryClose:hover, #lightbox .controls .galleryPrev:hover {
+        background: #444;
+        color: #fff;
+        cursor: pointer; }
+    @media screen and (max-width: 767px) {
+      #lightbox .controls {
+        top: 5%;
+        bottom: auto; } }
