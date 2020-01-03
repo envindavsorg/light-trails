@@ -5,7 +5,7 @@
 
 <br><br>
 
-![](light-trails.gif)
+![](docs/light-trails.gif)
 
 ### ✨ [Demo](https://lighttrails.now.sh)
 
