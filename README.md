@@ -7,7 +7,7 @@
 
 ![](light-trails.gif)
 
-### ✨ [Demo](https://light-trails.now.sh)
+### ✨ [Demo](https://lighttrails.now.sh)
 
 ## Author
 
