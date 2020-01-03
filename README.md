@@ -1,8 +1,11 @@
-<h1 align="center">Welcome to Light Trails 👋</h1>
-<p>
+<h1 align="center">LIGHT TRAILS 👋</h1>
+<p align="center">
+	<strong>Create and display beautiful light trails in your website, with Three.js and postprocessing.js</strong>
 </p>
 
-> Create and display beautiful light trails in your website, with Three.js and postprocessing.js
+<br><br>
+
+![](light-trails.gif)
 
 ### ✨ [Demo](https://light-trails.now.sh)
 
